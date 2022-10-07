@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Produk</title>
+        <style>
+            body {
+                background-color: rgb(231, 53, 82);
+            }
+            #sepatu1{
+                color:  #ffffff;
+            }
+
+            h3{
+                color: #ffffff;
+            }
+            h1{
+                color: #ffffff;
+            }
+            p{
+                color: #ffffff;
+            }
+            label{
+                color: #ffffff;
+            }
+            .box{
+            width: 300px;
+                border: 2px solid;
+            }
+        </style>
+    </head>
+    <body>
+       <center>
+            <h1>Rumah Makan Sedeharna</h1>
+            <div class="desain-layout">
+                <div class="box">
+                    <p>Menu Hari Ini :</p>
+                    <img width="250" height="150" src="photo.jpg" alt="">
+                    <h3 id="nasgor1">Nasi Goreng</h3>
+                </div>
+            </div>
+            <form action="detail-produk.html" method="get">
+                <p>Order Makanan :</p>
+                <label for="ukuran-barang">Pilih Varian Rasa :</label>
+                <select name="ukuran-barang" id="ukuran-barang">
+                    <option value="nas1">Nasi Goreng Original</option>
+                    <option value="nas2">Nasi Goreng Rendang</option>
+                    <option value="nas3">Nasi Goreng Udang</option>
+                    <option value="nas4">Nasi Goreng Ayam</option>
+                </select> 
+                <br><br>
+                <label for="jumlah-barang">Jumlah Barang :</label>
+                <input type="number" name="jumlah-barang">
+                <button type="submit">Pesan</button>
+            </form>
+        </center>
+    </body>
+</html>
